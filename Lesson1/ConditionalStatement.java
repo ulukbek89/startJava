@@ -5,7 +5,6 @@ public class ConditionalStatement {
         float growth = 1.85f;
         char firstLetterName = 'M';
 
-
         if(age > 20) {
             System.out.println("Age: " + age);
         }
