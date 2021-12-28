@@ -5,21 +5,19 @@ public class Cycle {
         }
 
         int j = -6;
-
-        while(j<=6) {
+        while(j <= 6) {
             System.out.println(j);
-            j = j + 2;
+            j += 2;
         }
 
         int k = 10;
-        int sumNotEven = 0;
+        int sumOdd = 0;
         do {
             if(k % 2 == 1) {
-                sumNotEven = sumNotEven + k;
+                sumOdd += k;
             }
             k++;
         } while(k <= 20);
-
-        System.out.println("The Summary of not even numbers between 10-20 is " + sumNotEven);
+        System.out.println("The Summary of not even numbers between 10-20 is " + sumOdd);
     }
 }

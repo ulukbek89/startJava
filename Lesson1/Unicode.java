@@ -1,12 +1,6 @@
 public class Unicode {
-    public static void main(String[] args){
-        int fromRange = 33;
-        int toRange = 126;
-        int range = toRange - fromRange;
-        char unicode = 33;
-
-        for(int i = 0; i < range; i++) {
-            unicode++;
+    public static void main(String[] args) {
+        for(char unicode = 33; unicode < 126; unicode++) {
             System.out.println("Char is " + unicode);
         }
     }
