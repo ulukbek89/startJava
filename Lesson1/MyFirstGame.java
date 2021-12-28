@@ -15,6 +15,6 @@ public class MyFirstGame {
                 gapNumber++;
             }
         } 
-            System.out.println("Congratulation! Number guessed. It's " + compNumber);
+        System.out.println("Congratulation! Number guessed. It's " + compNumber);
     }
 }
